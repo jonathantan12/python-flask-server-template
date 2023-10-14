@@ -4,5 +4,5 @@ from app import app
 
 @app.route("/")
 def home():
-    return "The server is running!"
+    return "The server is running! Running on Port 5000."
 
