@@ -22,17 +22,10 @@ Follow these steps to set up and run the server:
 1. Click the **Fork** button on the top right to copy this repository to your GitHub account.
 2. Clone the forked repository to your local machine.
 
-\`\`\`bash
-git clone https://github.com/your-username/python-flask-server-template.git
-cd python-flask-server-template
-\`\`\`
-
 ### Step 2: Create a Virtual Environment
 Set up a virtual environment to keep your project dependencies isolated.
 
-\`\`\`bash
-python3 -m venv venv
-\`\`\`
+`python3 -m venv venv`
 
 ### Step 3: Activate the Virtual Environment
 Activate the virtual environment to use the correct Python version and libraries.
