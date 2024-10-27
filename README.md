@@ -1,16 +1,70 @@
-# Creating a python-flask server
-Server running on Python-Flask
 
-### Step 1: Fork repo as template
+# Python Flask Server Template
 
-### Step 2: Create virtual environment 
-python3 -m venv venv (Terminal - macOS)
+This repository provides a template for setting up a Python-Flask server. Follow the steps below to fork, set up, and run the server locally.
 
-### Step 3: To active virtual environment
-source venv/bin/activate (Terminal - macOS)
+## Features
+- Flask as the web framework
+- Easy setup with a virtual environment
+- Option to install necessary dependencies
+- Ready to customize and extend for your project needs
 
-### Step 4: Install required libraries
-pip install -r requirements.txt (optional)
+## Prerequisites
+- Python 3.x installed on your machine
+- `pip` (Python package installer) available
+- (Optional) A terminal environment for macOS or Linux
 
-### Step 5: To run python-flask server
+## Getting Started
+
+Follow these steps to set up and run the server:
+
+### Step 1: Fork the Repository
+1. Click the **Fork** button on the top right to copy this repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+
+\`\`\`bash
+git clone https://github.com/your-username/python-flask-server-template.git
+cd python-flask-server-template
+\`\`\`
+
+### Step 2: Create a Virtual Environment
+Set up a virtual environment to keep your project dependencies isolated.
+
+\`\`\`bash
+python3 -m venv venv
+\`\`\`
+
+### Step 3: Activate the Virtual Environment
+Activate the virtual environment to use the correct Python version and libraries.
+
+For macOS/Linux:
+\`\`\`bash
+source venv/bin/activate
+\`\`\`
+
+For Windows:
+\`\`\`bash
+venv\Scripts\activate
+\`\`\`
+
+### Step 4: Install Required Libraries (Optional)
+If you have a `requirements.txt` file, install the necessary Python packages:
+
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+### Step 5: Run the Flask Server
+Once everything is set up, you can run the Flask server.
+
+\`\`\`bash
 python main.py
+\`\`\`
+
+The server will start, and you can view it in your browser at \`http://127.0.0.1:5000\`.
+
+## Customization
+You can modify the \`main.py\` file and add routes, business logic, or any other components your project requires.
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
