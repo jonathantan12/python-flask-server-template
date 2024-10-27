@@ -31,33 +31,23 @@ Set up a virtual environment to keep your project dependencies isolated.
 Activate the virtual environment to use the correct Python version and libraries.
 
 For macOS/Linux:
-\`\`\`bash
-source venv/bin/activate
-\`\`\`
+`source venv/bin/activate`
 
 For Windows:
-\`\`\`bash
-venv\Scripts\activate
-\`\`\`
+`venv\Scripts\activate`
 
 ### Step 4: Install Required Libraries (Optional)
 If you have a `requirements.txt` file, install the necessary Python packages:
 
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+`pip install -r requirements.txt`
 
 ### Step 5: Run the Flask Server
 Once everything is set up, you can run the Flask server.
 
-\`\`\`bash
-python main.py
-\`\`\`
+`python main.py`
 
-The server will start, and you can view it in your browser at \`http://127.0.0.1:5000\`.
+The server will start, and you can view it in your browser at `http://127.0.0.1:5000`.
 
 ## Customization
 You can modify the \`main.py\` file and add routes, business logic, or any other components your project requires.
 
-## License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
